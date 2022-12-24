@@ -1,0 +1,95 @@
+:root {
+  --grayish-blue: hsl(237, 18%, 59%);
+  --soft-red: hsl(345, 95%, 68%);
+  --white: hsl(0, 0%, 100%);
+  --dark-desaturated-blue: hsl(236, 21%, 26%);
+  --very-dark-blue: hsl(235, 16%, 14%);
+  --very-darker-blue: hsl(234, 17%, 12%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding: 50% 0 0 0;
+  background: url(./images/bg-stars.svg), var(--very-dark-blue);
+}
+
+.heading {
+  font-size: 22px;
+  text-align: center;
+  color: var(--white);
+  letter-spacing: 0.5rem;
+  line-height: 2rem;
+  margin: 1rem 2rem 2rem;
+}
+
+.deadline {
+  display: flex;
+  justify-content: center;
+}
+
+.deadline-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.deadline-counter p {
+  color: var(--grayish-blue);
+}
+
+.card {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--dark-desaturated-blue);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 5px var(--very-darker-blue);
+}
+
+.card h4 {
+  font-size: 3rem;
+  color: var(--soft-red);
+  letter-spacing: 0.2rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30vh;
+  background: url(./images/pattern-hills.svg), var(--very-dark-blue);
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  display: grid;
+  place-items: center;
+}
+
+footer .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0 0;
+}
+
+.icon-container {
+  margin: 0 1rem;
+}
