@@ -110,6 +110,15 @@ footer .socials {
   width: 100%;
 }
 
+/* Expired Deadlie */
+.launch {
+  font-size: 16px;
+  color: var(--soft-red);
+  letter-spacing: 0.3rem;
+  word-spacing: 1rem;
+}
+
+
 /* Desktop Design */
 @media screen and (min-width: 768px)
 {
